@@ -1,0 +1,30 @@
+h2  {color: rgb(32, 161, 201);
+
+}
+body {
+    
+    background-image: url("./youtube.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.header {
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2 {
+    text-align: center;
+}
